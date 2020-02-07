@@ -1,0 +1,18 @@
+Some git hub practices,
+Peter Steidten, starting 2020-02-07
+
+Setting up git:
+http://blog.davidecoppola.com/2016/12/how-to-set-up-a-git-repository-locally-and-on-a-remote-server/
+
+Some tricks with git:
+https://www.git-tower.com/blog/surviving-with-git-videos/
+
+
+
+# got to new folder, which you want to become a git repo
+mkdir Otto
+cd Otto
+
+# init git
+git init
+
