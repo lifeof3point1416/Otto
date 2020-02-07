@@ -29,3 +29,17 @@ git push origin master
 #### now all local files should be in online repo
 
 
+######## lessons
+
+1. Discarding All Local Changes in a File
+
+$ git checkout <commit> <filename>
+# for example:
+$ git checkout HEAD fuel_consumption.py
+
+####
+
+2. Restoring a Deleted File
+
+
+
