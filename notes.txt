@@ -34,12 +34,26 @@ git push origin master
 1. Discarding All Local Changes in a File
 
 $ git checkout <commit> <filename>
-# for example:
+# for example if I want to discard the last commit of fuel_consumption.py:
 $ git checkout HEAD fuel_consumption.py
 
 ####
 
 2. Restoring a Deleted File
 
+$ git status
 
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    hello.py
+	modified:   notes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+# restore hello.py (last comit state of that file)
+
+$ git checkout HEAD hello.py
 
