@@ -57,3 +57,15 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 $ git checkout HEAD hello.py
 
+####
+
+3. Discarding Chunks / Lines in a File
+
+# some changes are good in fuel_consumption.py, but some aren't
+
+$ git checkout -p fuel_consumption.py
+
+# go through changes line by line interactively, decide with y/n, wether 
+the change should be *discarded*
+
+# if a hunk is too big, use 's' to split it, until you reach the desired granularity
