@@ -16,3 +16,16 @@ cd Otto
 # init git
 git init
 
+#### on github: 
+#create a repo, eg: https://github.com/lifeof3point1416/Otto
+
+# back in local dir:
+git remote add origin https://github.com/lifeof3point1416/Otto
+git remote -v
+git pull origin master
+<add files>
+git push origin master
+
+#### now all local files should be in online repo
+
+
